@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Ambev_server": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CONNECTIONSTRING": "Server=ORDNAEL\\SQLEXPRESS;Database=Ambev;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True",
+        "RABBITMQHOSTNAME": "localhost",
+        "RABBITMQUSERNAME": "guest",
+        "RABBITMQPASSWORD": "guest",
+        "RABBITMQVIRTUALHOST": "localhost"
+      }
+    }
+  }
+}
